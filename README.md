@@ -1,8 +1,7 @@
-# CS319-1 Project Description
+# CS319-1 Project Description:
 
 ## Description: 
-Circle is a student club manager app. It can be used by club admins for managing activities, members of the club and the activity schedule of a student club. It also helps students to find student clubs they can join or club events according to their wishes. Club members can use this app to see club events, schedules and meeting days.
-
+This project is a student club manager website. It can be used by club admins to manage activities, club members and the activity schedule of the student club. It also helps students to find student clubs they can join or club events according to their wishes. Users can use this website to see club events and meeting days.
 
 ## Users:
 - Students
@@ -13,35 +12,34 @@ Circle is a student club manager app. It can be used by club admins for managing
 - Student Activities Center (SAC)
 - Club Mentor Professors
 
-
 ## Features:
 - The website will include:
   - List of all clubs in Bilkent University
   - Information about all clubs
-    - Links like WhatsApp groups or websites of the clubs
-    - Member lists of the clubs and their positions 
-    - Active member, head of the club etc.
-  - Event calendar for acitivites
+    - Description of the club and their events
+    - Links like WhatsApp groups or websites and e-mail addresses of the clubs
+    - Member lists of the clubs and their positions (active member, head of the club etc.)
+  - Event calendar for activities
     - One for club admins to help them decide on the event date and time
     - One for all students who want to plan which event to attend
   - Information about the events
-    - Event information and join links for google docs
-    - GE250/251 points of club events will also be shown
-  - Announcement page for clubs (notification center upcoming events)
-  - Profiles for each student
-    - Students have their HES code in their profiles
-
+    - Event information and join links
+    - GE250/251 points of club events
+  - Announcement page for clubs (notification center of upcoming events)
+  - Profiles for each student and club mentors
+    - HES codes will be in their profiles
 
 - The website will have the following functionalities:
-  - Filtering of the clubs (tags: sports, engineering, entrepreneurship etc.)
-  - Computing statistics of which students attend which events
-    - GE250 QR Attendance 
-    - Attendance statistics of an event
-    - How many active members or non-member students joined the event
-    - Zoom statistic of how active the members were
+  - Filtering of the clubs according to their tags (sports, engineering, entrepreneurship etc.)
   - Adding an event to Google Calendar or Outlook calendar
-  - Feedback mechanism for club events (for club admins)
-  - Ratings of events and clubs
+  - Computing and displaying statistics of:
+    - Attendance rates of events
+      - GE250 QR Attendance 
+      - How many active members or non-member students joined the event
+      - Zoom statistics of how active the members were during the event
+    - Ratings of events and clubs
+      - Feedback mechanism for club events
   - Club admins can make a student an active member or club admin
   - Students can propose a new club
-  - A platform where SAC, secretaries of the buildings that the events will be held and mentors approve “activity application form”
+  - A platform where SAC can approve activity application forms
+  - The club admins can contact their club mentors from their admin profile
