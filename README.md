@@ -8,38 +8,45 @@ This project is a student club manager website. It can be used by club admins to
   - Students who want to join a club
   - Student who want to attend a club’s events
   - Club members
-- Club admins
-- Student Activities Center (SAC)
-- Club Mentor Professors
+- Club board members
+- Admins to access every features to change or maintain
 
 ## Features:
 - The website will include:
   - List of all clubs in Bilkent University
-  - Information about all clubs
+  - Information about all clubs in home screen and club pages
     - Description of the club and their events
     - Links like WhatsApp groups or websites and e-mail addresses of the clubs
     - Member lists of the clubs and their positions (active member, head of the club etc.)
   - Event calendar for activities
-    - One for club admins to help them decide on the event date and time
+    - One for club board members to help them decide on the event date and time
     - One for all students who want to plan which event to attend
   - Information about the events
     - Event information and join links
     - GE250/251 points of club events
   - Announcement page for clubs (notification center of upcoming events)
-  - Profiles for each student and club mentors
-    - HES codes will be in their profiles
+  - Profiles for each student and club page
 
 - The website will have the following functionalities:
   - Filtering of the clubs according to their tags (sports, engineering, entrepreneurship etc.)
   - Adding an event to Google Calendar or Outlook calendar
   - Computing and displaying statistics of:
-    - Attendance rates of events
-      - GE250 QR Attendance 
-      - How many active members or non-member students joined the event
-      - Zoom statistics of how active the members were during the event
+    - Which students interested in which clubs and activities
     - Ratings of events and clubs
       - Feedback mechanism for club events
-  - Club admins can make a student an active member or club admin
+  - Club board members can make a student an active member or club board member
   - Students can propose a new club
-  - A platform where SAC can approve activity application forms
-  - The club admins can contact their club mentors from their admin profile
+  - The club board members can contact their club mentors from their admin profile
+  
+- The users will have access to following features:
+  - Students:
+    - Can see list of clubs, all announcements from clubs 
+    - Can be given active member title of a club by club board members
+    - Can vote and give feedback for clubs and club events
+  - Club board members:
+    - Can add, change or delete any data on the club page about event announcements, informations and club information
+    - Can give active member title or board member title to any student
+  - Admins:
+    - Have all access to club pages, student and board member profiles
+    - Can create or delete club pages if new clubs are opened or some clubs are closed
+    - Have access to full-stack designs and codes for maintenance and updates
