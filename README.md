@@ -10,6 +10,7 @@ This project is a student club manager website. It can be used by club admins to
   - Club members
 - Club board members
 - Admins to access every features to change or maintain
+- Faculty advisors of each club
 
 ## Features:
 - The website will include:
@@ -25,7 +26,8 @@ This project is a student club manager website. It can be used by club admins to
     - Event information and join links
     - GE250/251 points of club events
   - Announcement page for clubs (notification center of upcoming events)
-  - Profiles for each student and club page
+  - Profiles for each student, faculty advisor and club page
+    - Contact information of students and faculty advisors
 
 - The website will have the following functionalities:
   - Filtering of the clubs according to their tags (sports, engineering, entrepreneurship etc.)
@@ -34,9 +36,10 @@ This project is a student club manager website. It can be used by club admins to
     - Which students interested in which clubs and activities
     - Ratings of events and clubs
       - Feedback mechanism for club events
-  - Club board members can make a student an active member or club board member
   - Students can propose a new club
-  - The club board members can contact their club mentors from their admin profile
+  - Club board members can make a student an active member or club board member
+  - Club board members can contact their faculty advisors from their admin profile
+  - Club board members can hold monthly logs regarding the club and its activities
   
 - The users will have access to following features:
   - Students:
@@ -46,6 +49,9 @@ This project is a student club manager website. It can be used by club admins to
   - Club board members:
     - Can add, change or delete any data on the club page about event announcements, informations and club information
     - Can give active member title or board member title to any student
+  - Faculty advisors:
+    - Can view the monthly logs of the club they are advising
+    - Can see the contact information of the board members of the club
   - Admins:
     - Have all access to club pages, student and board member profiles
     - Can create or delete club pages if new clubs are opened or some clubs are closed
