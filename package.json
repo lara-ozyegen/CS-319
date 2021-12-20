@@ -1,0 +1,19 @@
+{
+  "name": "cs-319",
+  "version": "1.0.0",
+  "description": "This project is a student club manager website. It can be used by club admins to manage activities, club members and the activity schedule of the student club. It also helps students to find student clubs they can join or club events according to their wishes. Users can use this website to see club events and meeting days.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lara-ozyegen/CS-319.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lara-ozyegen/CS-319/issues"
+  },
+  "homepage": "https://github.com/lara-ozyegen/CS-319#readme"
+}
