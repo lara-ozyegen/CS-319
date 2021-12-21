@@ -9,7 +9,7 @@ export default function Clubs() {
     <>  
     <div class="titlebar">
         <li>
-            <h1>Events</h1>
+            <h1>Clubs</h1>
         </li>
     
         <div class="search">
