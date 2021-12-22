@@ -21,7 +21,7 @@ const CardItem = (props) => { //takes the properties as a parameter and sets the
     */
 
     return (
-        <>
+        <><div class="flex-container">
             <div class="card">
 				<img src={props.src} alt='Image' className='img'/>
                 <h3 className='eventName'>{props.name}</h3>
@@ -30,6 +30,7 @@ const CardItem = (props) => { //takes the properties as a parameter and sets the
                 <p className='description'>{props.description}</p>
                 <p class='tags'>Tags: {props.tags}</p>
 			</div>
+            </div>
         </>
     )
 }

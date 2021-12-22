@@ -13,12 +13,7 @@ export default function Events() {
     <li>
         <h1>Events</h1>
     </li>
-        
-        <div class="search">
-            <li><input type="text" placeholder="Search..."/></li>
-            <li><button class="filterButton"> Filter </button></li>
-            <FilteringComponent eventsList = {eventsList}></FilteringComponent>
-        </div>
+        <FilteringComponent eventsList = {eventsList}></FilteringComponent>
     </div>
 
     <h2>This Week</h2>

@@ -7,22 +7,27 @@
     text-align: left;
   }
   
+  .flex-container {
+    flex-wrap: wrap;
+    width: auto;
+  }
   .cards {
+    flex-wrap: wrap;
     width: 90%;
     display: flex;
     flex: 1;
     flex-direction: row;
-    flex-wrap: wrap;
     padding: 1.3% 5% 1% 5%;
   }
 
 .card	{
+  max-width: 300px;
 	display: flex;
 	flex: 1;
 	flex-direction: column;
 	height: auto;
 	background-color: white;
-	margin: 1%;
+	margin: 10px;
 	box-shadow: 0 6px 12px rgba(0,0,0,0.2);
 	border-radius: 10px;
 }
