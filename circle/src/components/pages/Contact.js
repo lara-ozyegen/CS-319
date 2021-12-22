@@ -8,26 +8,27 @@ export default function Contact() {
 
     return(
     <> 
-    <div class="titlebar">
-        <li>
-            <h1 className='Contact'>Contact</h1>
-        </li>
-    </div>
-        
-    <h2 className='ContactWithCLub'>Contact with Your Clubs</h2>
-    <hr />
-    <div>
-        {clubsList.map((value) => (
-           
-            <h1>Contact with {value.name} </h1>              
-            ))}
+        <div class="titlebar">
+            <li>
+                <h1 className='Contact'>Contact</h1>
+            </li>
         </div>
 
-    <h2 className='ContactWithDevelopers'>Contact with Developers</h2>
-    <hr />
-    <a>Report a bug</a>
-    <a>Make a suggestion</a>
+        <h2 className='ContactWithCLub'>Contact with Your Clubs</h2>
+        <hr />
+        <div className="contactClubs">
+            {clubsList.map((value) => (
+            
+                <h3>Contact with {value.name} </h3>              
+                ))}
+        </div>
 
+        <h2 className='ContactWithDevelopers'>Contact with Developers</h2>
+        <hr />
+        <div className="contactClubs">
+            <h3>Report a bug</h3>
+            <h3>Make a suggestion</h3>
+        </div>
     </>
     );
 }
