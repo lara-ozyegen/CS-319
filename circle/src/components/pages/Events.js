@@ -28,6 +28,7 @@ const Events = () => {
         
     <h2>This Week</h2>
     <hr />
+    <EventsGrid items={events}></EventsGrid>
     <Cards/>
     <h2 id="secondTitle">Next Week</h2>
     <hr />
