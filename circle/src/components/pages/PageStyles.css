@@ -1,0 +1,110 @@
+/* CSS Styles for All Pages */
+
+html {
+    font-weight: 400;
+    width: 100%;
+    height: 150%;
+    background-color: #fafafa;
+}
+
+.titlebar {
+    margin-right: 4rem;
+    margin-left: 4rem;
+}
+
+li {
+    display: inline;
+}
+
+h1 {
+    font-size: 1.6em;
+    font-weight: 500;
+    float: left;
+    font-size: 2em;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+h2 {
+    font-size: 1.4em;
+    color: black;
+    font-weight: 400;
+    margin-left: 4rem;
+    margin-top: 6rem;
+}
+
+.contactClubs {
+    margin-left: 60px;
+}
+
+hr {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    border-top: 1px solid black;
+}
+
+#secondTitle {
+    margin-top: 30rem;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+/* CSS Styles for Specific Objects */
+
+/* Edit Button in Profile Page */
+.editButton {
+    background-color: #8000ff;
+    border: none;
+    color: white;
+    padding: 8px 50px;
+    font-size: 1.2em;
+    border-radius: 30px;
+    float: right;
+    margin-top: 1rem;
+}
+
+/* Edit Button in Notifications Page */
+.clearButton {
+    background-color: #B10F0F;
+    border: none;
+    color: white;
+    padding: 8px 60.5px;
+    font-size: 1.2em;
+    border-radius: 30px;
+    float: right;
+    margin-top: 1rem;
+}
+
+/* Filter Button in Several Pages */
+.filterButton {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 8px 30px;
+    font-size: 1.2em;
+    border-radius: 30px;
+    float: right;
+    margin-top: 1rem;
+}
+
+/* Search Area in Several Pages */
+.search
+{
+    float: right;
+}
+input {
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+    border: 2px solid black;
+    padding: 6px 50px;
+    border-radius: 30px;
+    font-size:1.2em;
+    background: linear-gradient(180deg, rgba(238,238,238,1) 0%, rgba(255,255,255,1) 100%);
+    text-align: left;
+}
+input::placeholder {
+    color: black;
+}
+
+
+
