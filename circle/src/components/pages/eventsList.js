@@ -1,4 +1,4 @@
-const events = [
+const eventsList = [
     {
     "tags": [
         "Trees"
@@ -39,4 +39,4 @@ const events = [
     "itemType": "shirt",
 }
 ]
-export default events;
+export default eventsList;
