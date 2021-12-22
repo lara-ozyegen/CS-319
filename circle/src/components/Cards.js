@@ -10,16 +10,12 @@ function Cards() {
             <div className='cards--container'>
                 <div className='cards--wrapper'>
                     <ul className='cards--items'>
-                        
+                    {eventsList.map((value) => (
+                        <CardItem src={value.src} label="YES" path="/events"
+                        name = {value.name} location = {value.location} date = {value.date}/>
+                        ))}
                     </ul>
                 </div>
-
-            <div>
-            {eventsList.map((value) => (
-                <CardItem src={value.src} label="YES" path="/events"
-                name = {value.name} location = {value.location} date = {value.date}/>
-                ))}
-            </div>
             </div>
         </div>
     );
