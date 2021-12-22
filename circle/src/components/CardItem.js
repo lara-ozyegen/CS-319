@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function CardItem(props) { //takes the properties as a parameter and sets the values according to them
+const CardItem = (props) => { //takes the properties as a parameter and sets the values according to them
     return (
         <>
             <li className='cards--item'>
@@ -18,4 +18,4 @@ function CardItem(props) { //takes the properties as a parameter and sets the va
     )
 }
 
-export default CardItem
+export default CardItem;

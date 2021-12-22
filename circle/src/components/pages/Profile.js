@@ -3,8 +3,8 @@ import '../../App.css';
 import './PageStyles.css';
 
 
-// homepage
-export default function Profile() {
+// profile
+const Profile = () => { 
     return(
     <> 
     <div class="titlebar">
@@ -29,3 +29,5 @@ export default function Profile() {
     </>
     );
 }
+
+export default Profile;

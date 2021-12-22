@@ -2,9 +2,7 @@ import React from 'react';
 import '../../App.css';
 import './PageStyles.css';
 
-
-// homepage
-export default function Clubs() {
+const Clubs = () => { 
     return(
     <>  
     <div class="titlebar">
@@ -24,3 +22,4 @@ export default function Clubs() {
     </>
     );
 }
+export default Clubs;

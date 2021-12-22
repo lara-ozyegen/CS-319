@@ -3,7 +3,7 @@ import CardItem from './CardItem'
 import "./Cards.css"
 
 // a class to represent all the cards
-function Cards() {
+const Cards = () => {
     return (
         <div className='cards'>
             <div className='cards--container'>
@@ -17,4 +17,4 @@ function Cards() {
     );
 }
 
-export default Cards
+export default Cards;

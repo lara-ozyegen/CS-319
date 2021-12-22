@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import './Navbar.css';
 
-function Navbar() {
+const Navbar = () => {
     const [click, setClick] = useState(false);  //initial value is false
     const [button ,setButton] = useState(true);
 

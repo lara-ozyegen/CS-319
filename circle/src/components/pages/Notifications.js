@@ -2,9 +2,7 @@ import React from 'react';
 import '../../App.css';
 import './PageStyles.css';
 
-
-// homepage
-export default function Notifications() {
+const Notifications = () => {  
     return(
     <> 
     <div class="titlebar">
@@ -17,3 +15,4 @@ export default function Notifications() {
     </>
     );
 }
+export default Notifications;

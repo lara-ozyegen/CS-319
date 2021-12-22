@@ -5,7 +5,8 @@ import './PageStyles.css';
 
 
 // homepage
-function Homepage() {
+
+const Homepage = () => { 
     return(
     <>
 

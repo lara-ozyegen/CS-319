@@ -4,7 +4,8 @@ import './PageStyles.css';
 
 
 // homepage
-export default function Contact() {
+
+const Contact = () => { 
     return(
     <> 
     <div class="titlebar">
@@ -22,3 +23,4 @@ export default function Contact() {
     </>
     );
 }
+export default Contact;

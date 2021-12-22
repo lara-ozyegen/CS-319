@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/lara-ozyegen/CS-319/issues"
   },
-  "homepage": "https://github.com/lara-ozyegen/CS-319#readme"
+  "homepage": "https://github.com/lara-ozyegen/CS-319#readme",
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@material-ui/core": "^5.0.0-beta.5",
+    "@mui/material": "^5.2.5"
+  }
 }
