@@ -18,18 +18,6 @@ Amplify.configure(awsconfig);
 function App() {
   return (
     <>
-    <AmplifySignUp
-          slot="sign-up"
-          formFields={[
-            { type: "username" },
-            {
-              type: "password",
-              label: "Custom Password Label",
-              placeholder: "custom password placeholder"
-            },
-            { type: "email" }
-          ]} 
-      />
 
       <Router>
         <Navbar/>
