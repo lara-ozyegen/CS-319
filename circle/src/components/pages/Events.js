@@ -1,8 +1,9 @@
 import React from 'react';
 import '../../App.css';
 import './PageStyles.css';
-import Cards from '../Cards';
-
+import EventsCards from '../EventsCards';
+import FilteringComponent from '../FilteringComponent';
+import eventsList from './eventsList';
 
 // Events
 export default function Events() {
@@ -12,20 +13,16 @@ export default function Events() {
     <li>
         <h1>Events</h1>
     </li>
-        
-        <div class="search">
-            <li><input type="text" placeholder="Search..."/></li>
-            <li><button class="filterButton"> Filter </button></li>
-        </div>
+        <FilteringComponent eventsList = {eventsList}></FilteringComponent>
     </div>
 
     <h2>This Week</h2>
     <hr />
-    <Cards/>
+    <EventsCards eventsList = {eventsList}/>
 
     <h2 id="secondTitle">Next Week</h2>
     <hr />
-    <Cards/>
+    <EventsCards eventsList = {eventsList}/>
 
     </>
     );
