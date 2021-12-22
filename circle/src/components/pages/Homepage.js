@@ -1,6 +1,8 @@
 import React from 'react';
 import '../../App.css';
-import Cards from '../Cards';
+import EventsCards from '../EventsCards';
+import ClubsCards from '../ClubsCards';
+import Clubs from './Clubs';
 import './PageStyles.css';
 
 
@@ -15,10 +17,11 @@ function Homepage() {
     
     <h2 className='Recommended'>Recommended Events for You</h2>
     <hr />
-    <Cards/>
+    <EventsCards/>
 
     <h2 id='secondTitle'>My Clubs</h2>
     <hr />
+    <ClubsCards/>
             
     </>
     );
