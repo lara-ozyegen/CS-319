@@ -9,7 +9,7 @@ function ClubsCards() {
         <div className='cards'>
             {clubsList.map((value) => (
                 <ClubCardItem src={value.src} label="YES" path="/events"
-                    name = {value.name} tags = {value.tags} tags = {value.tags}/>                       
+                    name = {value.name} tags = {value.tags} description = {value.description}/>                       
                     ))}
         </div>
     );

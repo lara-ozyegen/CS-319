@@ -9,7 +9,7 @@ const ClubCardItem = (props) => { //takes the properties as a parameter and sets
 				<img src={props.src} alt='Image' className='img'/>
                 <h3 className='clubName'>{props.name}</h3>
                 <p className='description'>{props.description}</p>
-                <p className='tags'>{props.tags}</p>
+                <p className='tags'>Tags: {props.tags}</p>
 			</div>
         </>
     )

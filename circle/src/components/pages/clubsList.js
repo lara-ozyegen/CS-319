@@ -14,7 +14,7 @@ const items = [
         "id": "1",
         "name": "ACM",
         "src": "images/kadın-akademisyen.jpg",
-        "description": "DKSADMASL",
+        "description": "DKSADMdsafasASL (this is supposed to be a description)",
         "tags": [
             "Art",
             "Music",
@@ -25,7 +25,7 @@ const items = [
         "id": "2",
         "name": "MEC",
         "src": "images/kadın-akademisyen.jpg",
-        "description": "DKSADMASL",
+        "description": "DKSADsdasadaMASL",
         "tags": [
             "Art",
             "Music",
@@ -36,7 +36,7 @@ const items = [
         "id": "3",
         "name": "TDP",
         "src": "images/kadın-akademisyen.jpg",
-        "description": "DKSADMASL",
+        "description": "DKSADdadadsasaMASL",
         "tags": [
             "Art",
             "Music",
