@@ -2,7 +2,8 @@ import React from 'react';
 import '../../App.css';
 import './PageStyles.css';
 import Cards from '../Cards';
-
+import FilteringComponent from '../FilteringComponent';
+import eventsList from './eventsList';
 
 // Events
 export default function Events() {
@@ -16,6 +17,7 @@ export default function Events() {
         <div class="search">
             <li><input type="text" placeholder="Search..."/></li>
             <li><button class="filterButton"> Filter </button></li>
+            <FilteringComponent eventsList = {eventsList}></FilteringComponent>
         </div>
     </div>
 
