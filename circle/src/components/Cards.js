@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useDebugValue } from 'react'
 import CardItem from './CardItem'
 import "./Cards.css"
+import eventsList from './pages/eventsList';
 
 // a class to represent all the cards
 function Cards() {
@@ -9,9 +10,16 @@ function Cards() {
             <div className='cards--container'>
                 <div className='cards--wrapper'>
                     <ul className='cards--items'>
-                        <CardItem src="images/kadın-akademisyen.jpg" text="Kadın Akademisyenler Buluşması" label="YES" path="/events"/>
+                        
                     </ul>
                 </div>
+
+            <div>
+            {eventsList.map((value) => (
+                <CardItem src={value.src} label="YES" path="/events"
+                name = {value.name} location = {value.location} date = {value.date}/>
+                ))}
+            </div>
             </div>
         </div>
     );

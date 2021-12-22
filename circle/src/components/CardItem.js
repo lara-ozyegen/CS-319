@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function CardItem(props) { //takes the properties as a parameter and sets the values according to them
+const CardItem = (props) => { //takes the properties as a parameter and sets the values according to them
     return (
         <>
             <li className='cards--item'>
@@ -10,7 +10,10 @@ function CardItem(props) { //takes the properties as a parameter and sets the va
                         <img src={props.src} alt='Image' className='cards--item--img'/>
                     </figure>
                     <div className='cards--item--info'>
-                        <h5 className='cards--item--text'>{props.text}</h5>
+                        <h3 className='eventName'>{props.name}</h3>
+                        <h5 className='eventLocation'>{props.location}</h5>
+                        <h5 className='eventDate'>{props.date}</h5>
+                        <h5 className='description'>{props.description}</h5>
                     </div>
                 </Link>
             </li>
@@ -18,4 +21,4 @@ function CardItem(props) { //takes the properties as a parameter and sets the va
     )
 }
 
-export default CardItem
+export default CardItem;
