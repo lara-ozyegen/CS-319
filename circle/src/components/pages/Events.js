@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import './PageStyles.css';
-import Cards from '../Cards';
+import EventsCards from '../EventsCards';
 import FilteringComponent from '../FilteringComponent';
 import eventsList from './eventsList';
 
@@ -23,11 +23,11 @@ export default function Events() {
 
     <h2>This Week</h2>
     <hr />
-    <Cards/>
+    <EventsCards eventsList = {eventsList}/>
 
     <h2 id="secondTitle">Next Week</h2>
     <hr />
-    <Cards/>
+    <EventsCards eventsList = {eventsList}/>
 
     </>
     );

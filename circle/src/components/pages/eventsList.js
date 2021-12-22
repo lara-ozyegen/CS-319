@@ -1,7 +1,8 @@
-const eventsList = [
+const items = [
 {
     "id": "0",
     "name": "Event name 0",
+    "club": "IEEE",
     "src": "images/kadın-akademisyen.jpg",
     "description": "enim corporis voluptatibus laudantium possimus alias dolorem voluptatem similique aut aliquam voluptatem voluptatem omnis id consequatur",
     "location": "Ankara",
@@ -15,6 +16,7 @@ const eventsList = [
 {
     "id": "1",
     "name": "Event name 1",
+    "club": "IEEE",
     "src": "images/kadın-akademisyen.jpg",
     "description": "enim corporis voluptatibus laudantium possimus alias dolorem voluptatem similique aut aliquam voluptatem voluptatem omnis id consequatur",
     "location": "Ankara",
@@ -28,6 +30,7 @@ const eventsList = [
 {
     "id": "2",
     "name": "Event name 2",
+    "club": "IEEE",
     "src": "images/kadın-akademisyen.jpg",
     "description": "enim corporis voluptatibus laudantium possimus alias dolorem voluptatem similique aut aliquam voluptatem voluptatem omnis id consequatur",
     "location": "Ankara",
@@ -37,6 +40,20 @@ const eventsList = [
         "B",
         "C"
     ]
-}
+},
+{
+    "id": "2",
+    "name": "Event name 2",
+    "club": "IEEE",
+    "src": "images/kadın-akademisyen.jpg",
+    "description": "enim corporis voluptatibus laudantium possimus alias dolorem voluptatem similique aut aliquam voluptatem voluptatem omnis id consequatur",
+    "location": "Ankara",
+    "date": "15.02.2022",
+    "tags": [
+        "A",
+        "B",
+        "C"
+    ]
+},
 ]
-export default eventsList;
+export default items;
