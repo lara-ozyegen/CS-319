@@ -21,8 +21,8 @@ export default function Clubs() {
     </div>
 
     <h2>All Clubs</h2>
-    <ClubsCards ></ClubsCards>
     <hr />
+    <ClubsCards ></ClubsCards>
     
     </>
     );
