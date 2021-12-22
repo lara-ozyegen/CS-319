@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import './Navbar.css';
+import { AmplifySignOut } from '@aws-amplify/ui-react';
 
 function Navbar() {
     const [click, setClick] = useState(false);  //initial value is false
@@ -61,6 +62,9 @@ function Navbar() {
                             <Link to='/profile' className='nav-links' onClick={closeMobileMenu}>
                                 Profile
                             </Link>
+                        </li>
+                        <li>
+                            <AmplifySignOut />   
                         </li>
                     </ul>
                 </div>

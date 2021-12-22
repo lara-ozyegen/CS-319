@@ -8,12 +8,17 @@ import Events from './components/pages/Events';
 import Contact from './components/pages/Contact';
 import Notifications from './components/pages/Notifications';
 import Profile from './components/pages/Profile';
+import Amplify from 'aws-amplify';
+import awsconfig from './aws-exports';
+import { AmplifySignUp, withAuthenticator } from '@aws-amplify/ui-react';
 
+Amplify.configure(awsconfig);
 
 // every route must be inside <Routes></Routes>
 function App() {
   return (
     <>
+
       <Router>
         <Navbar/>
         <Routes> 
@@ -29,4 +34,4 @@ function App() {
   );
 }
 
-export default App;
+export default withAuthenticator(App);
