@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
-import './Navbar.css';
+import './NavbarClub.css';
 
-function Navbar() {
+function NavbarClub() {
     const [click, setClick] = useState(false);  //initial value is false
     const [button ,setButton] = useState(true);
 
@@ -21,8 +21,8 @@ function Navbar() {
     return (
         <>
             <nav className="navbar">
-                <div className="navbar-container">
-                    <Link to="/homepage" className="navbar-logo">
+                <div className="navbar-container-c">
+                    <Link to="/homepage-club" className="navbar-logo-c">
                         Circle
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
@@ -30,35 +30,35 @@ function Navbar() {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to='/homepage' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/homepage-club' className='nav-links' onClick={closeMobileMenu}>
                                 Homepage
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/events' className='nav-links' onClick={closeMobileMenu}>
-                                Events
+                            <Link to='/events-club' className='nav-links' onClick={closeMobileMenu}>
+                                Event Management
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/clubs' className='nav-links' onClick={closeMobileMenu}>
-                                Clubs
+                            <Link to='/members-club' className='nav-links' onClick={closeMobileMenu}>
+                                Members
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/contact-club' className='nav-links' onClick={closeMobileMenu}>
                                 Contact
                             </Link>
                         </li>
                     </ul>
                     <ul className={click ? 'nav-menu active' : 'nav-menu-second'}>
                         <li className='nav-item'>
-                            <Link to='/notifications' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/notifications-club' className='nav-links' onClick={closeMobileMenu}>
                                 Notifications
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/profile' className='nav-links' onClick={closeMobileMenu}>
-                                Profile
+                            <Link to='/profile-club' className='nav-links' onClick={closeMobileMenu}>
+                                Club Profile
                             </Link>
                         </li>
                     </ul>
@@ -68,4 +68,4 @@ function Navbar() {
     );
 }
 
-export default Navbar;
+export default NavbarClub;

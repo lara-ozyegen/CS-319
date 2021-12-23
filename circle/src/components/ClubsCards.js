@@ -1,7 +1,7 @@
 import React, { useDebugValue } from 'react'
 import ClubCardItem from './ClubCardItem'
 import "./Cards.css"
-import clubsList from './pages/clubsList';
+import clubsList from './pages/circle-students/clubsList';
 
 // a class to represent all the cards
 function ClubsCards() {

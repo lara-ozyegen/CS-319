@@ -1,8 +1,8 @@
 import React from 'react';
-import '../../App.css';
+import '../../../App.css';
 import './PageStyles.css';
-import EventsCards from '../EventsCards';
-import FilteringComponent from '../FilteringComponent';
+import EventsCards from '../../EventsCards';
+import FilteringComponent from '../../FilteringComponent';
 import eventsList from './eventsList';
 
 // Events

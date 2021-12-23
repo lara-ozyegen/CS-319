@@ -1,10 +1,9 @@
 import React from 'react';
-import '../../App.css';
-import './PageStyles.css';
-import clubsList from './clubsList.js'
+import '../../../App.css';
+import './PageStylesClub.css';
 
 // homepage
-export default function Contact() {
+export default function ContactClubs() {
 
     return(
     <> 
@@ -14,13 +13,15 @@ export default function Contact() {
             </li>
         </div>
 
-        <h2 className='ContactWithCLub'>Contact with Your Clubs</h2>
+        <h2 className='ContactWithCLub'>Contact with Advisor</h2>
         <hr />
         <div className="contactClubs">
-            {clubsList.map((value) => (
-            
-                <h3>Contact with {value.name} </h3>              
-                ))}
+        </div>
+
+        <h2 className='ContactWithSAC'>Contact with Student Activities Center</h2>
+        <hr />
+        <div className="contactClubs">
+            <h3>SACC</h3>
         </div>
 
         <h2 className='ContactWithDevelopers'>Contact with Developers</h2>
