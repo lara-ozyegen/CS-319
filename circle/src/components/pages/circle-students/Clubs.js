@@ -1,9 +1,9 @@
 import React from 'react';
-import '../../App.css';
+import '../../../App.css';
 import './PageStyles.css';
 import clubsList from './clubsList.js'
-import ClubsCards from '../ClubsCards';
-import FilteringComponent from '../FilteringComponent';
+import ClubsCards from '../../ClubsCards';
+import FilteringComponent from '../../FilteringComponent';
 
 // homepage
 export default function Clubs() {
