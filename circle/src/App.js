@@ -12,6 +12,12 @@ import Contact from './components/pages/circle-students/Contact';
 import Notifications from './components/pages/circle-students/Notifications';
 import Profile from './components/pages/circle-students/Profile';
 
+import Amplify from 'aws-amplify';
+import awsconfig from './aws-exports';
+import { AmplifySignUp, withAuthenticator } from '@aws-amplify/ui-react';
+
+Amplify.configure(awsconfig);
+
 import NavbarClub from'./components/NavbarClub';
 import HomepageClubs from './components/pages/circle-clubs/HomepageClubs.js';
 import EventManagement from './components/pages/circle-clubs/EventManagement';
