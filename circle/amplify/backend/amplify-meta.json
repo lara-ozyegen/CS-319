@@ -1,0 +1,58 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-circle-dev-141737-authRole",
+      "UnauthRoleArn": "arn:aws:iam::651959118625:role/amplify-circle-dev-141737-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::651959118625:role/amplify-circle-dev-141737-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-circle-dev-141737-deployment",
+      "UnauthRoleName": "amplify-circle-dev-141737-unauthRole",
+      "StackName": "amplify-circle-dev-141737",
+      "StackId": "arn:aws:cloudformation:us-east-2:651959118625:stack/amplify-circle-dev-141737/c7760c10-6318-11ec-a3c5-06cdb3e0640a",
+      "AmplifyAppId": "d2cqvmaw7qcweb"
+    }
+  },
+  "auth": {
+    "circle43ecebd2": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-circle-dev-141737-deployment/amplify-cfn-templates/auth/circle43ecebd2-cloudformation-template.json",
+        "logicalId": "authcircle43ecebd2"
+      },
+      "lastPushTimeStamp": "2021-12-22T12:14:57.811Z",
+      "output": {
+        "UserPoolId": "us-east-2_TQJsyrrYM",
+        "AppClientIDWeb": "77frgpcud6etrq0i7o180t5s29",
+        "AppClientID": "414o464vm2hnb1huqjd3pth45v",
+        "IdentityPoolId": "us-east-2:e20a623c-97fa-4c4a-975c-07d04e03b6a8",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-2:651959118625:userpool/us-east-2_TQJsyrrYM",
+        "IdentityPoolName": "circle43ecebd2_identitypool_43ecebd2__dev",
+        "UserPoolName": "circle43ecebd2_userpool_43ecebd2"
+      },
+      "lastPushDirHash": "3X/+XyQVu2En5ReIDPcFrE8Ou18="
+    }
+  }
+}
