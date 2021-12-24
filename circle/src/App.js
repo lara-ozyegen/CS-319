@@ -16,8 +16,6 @@ import Amplify from 'aws-amplify';
 import awsconfig from './aws-exports';
 import { AmplifySignUp, withAuthenticator } from '@aws-amplify/ui-react';
 
-Amplify.configure(awsconfig);
-
 import NavbarClub from'./components/NavbarClub';
 import HomepageClubs from './components/pages/circle-clubs/HomepageClubs.js';
 import EventManagement from './components/pages/circle-clubs/EventManagement';
@@ -26,6 +24,8 @@ import ContactClubs from './components/pages/circle-clubs/ContactClubs';
 import NotificationsClub from './components/pages/circle-clubs/NotificationsClub';
 
 import { Outlet } from 'react-router-dom';
+
+Amplify.configure(awsconfig);
 
 const NavbarLayout = () => (
   <>
