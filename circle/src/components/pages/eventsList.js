@@ -1,3 +1,4 @@
+import {text} from './getEvent.js';
 const items = [
 {
     "id": "0",
@@ -98,4 +99,8 @@ const items = [
     ]
 },
 ]
-export default items;
+const items2 = text;
+//export default items;
+console.log(items2);
+console.log(text);
+export {items2};
