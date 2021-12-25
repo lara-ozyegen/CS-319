@@ -124,5 +124,23 @@ input::placeholder {
     color: black;
 }
 
+.dropdown {
+    background-color: white;
+    border: black;
+    width: 320px;
+    flex-wrap: wrap;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
 
-
+.tagsOption {
+    background-color: none;
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    border-radius: 5px;
+    float: right;
+    margin: 3px;
+    font-size: 17px;
+}
