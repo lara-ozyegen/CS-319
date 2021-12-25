@@ -23,7 +23,7 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/homepage" className="navbar-logo">
+                    <Link to="/" className="navbar-logo">
                         Circle
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>

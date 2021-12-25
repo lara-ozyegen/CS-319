@@ -1,134 +1,124 @@
 const items = [
     {
         "id": "0",
-        "name": "IEEE",
+        "name": "ACM Bilkent Club",
         "src": "images/kadın-akademisyen.jpg",
-        "description": "DKSADMASL",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "tags": [
-            "Art",
-            "Music",
-            "Smth"
+            "Engineering",
+            "Business",
+            "Entrepreneurship"
         ]
     },
     {
         "id": "1",
-        "name": "ACM",
+        "name": "Tea Club",
         "src": "images/kadın-akademisyen.jpg",
-        "description": "DKSADMdsafasASL (this is supposed to be a description)",
-        "tags": [
-            "Art",
-            "Music",
-            "Smth"
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",        "tags": [
+            "Food"
         ]
     },
     {
         "id": "2",
-        "name": "MEC",
+        "name": "Literature Society",
         "src": "images/kadın-akademisyen.jpg",
-        "description": "DKSADsdasadaMASL",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "tags": [
-            "Art",
-            "Music",
-            "Smth"
+            "Literature",
+            "History",
+            "Philosophy",
+            "Self improvement"
         ]
     },
     {
         "id": "3",
-        "name": "TDP",
-        "src": "images/kadın-akademisyen.jpg",
-        "description": "DKSADdadadsasaMASL",
+        "name": "Philosophy Society",
+        "src": "images/kadın-akademisyen.jpg",        
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "tags": [
-            "Art",
-            "Music",
-            "Smth"
+            "Philosophy",
+            "History",
+            "Politics",
+            "Self improvement"
         ]
     },
     {
-        "id": "0",
-        "name": "IEEE",
+        "id": "4",
+        "name": "Short Film Society",
         "src": "images/kadın-akademisyen.jpg",
-        "description": "DKSADMASL",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "tags": [
             "Art",
-            "Music",
-            "Smth"
+            "Films",
         ]
     },
     {
-        "id": "1",
-        "name": "ACM",
+        "id": "5",
+        "name": "Winter Sports Society",
         "src": "images/kadın-akademisyen.jpg",
-        "description": "DKSADMdsafasASL (this is supposed to be a description)",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "tags": [
-            "Art",
-            "Music",
-            "Smth"
+            "Sports"
         ]
     },
     {
-        "id": "2",
-        "name": "MEC",
+        "id": "6",
+        "name": "Fashion Society",
         "src": "images/kadın-akademisyen.jpg",
-        "description": "DKSADsdasadaMASL",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "tags": [
-            "Art",
-            "Music",
-            "Smth"
+            "Fashion",
+            "Art"
         ]
     },
     {
-        "id": "3",
-        "name": "TDP",
+        "id": "7",
+        "name": "Music Club",
         "src": "images/kadın-akademisyen.jpg",
-        "description": "DKSADdadadsasaMASL",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "tags": [
             "Art",
-            "Music",
-            "Smth"
+            "Music"
         ]
     },
     {
-        "id": "0",
-        "name": "IEEE",
+        "id": "8",
+        "name": "Women's Studies Society",
         "src": "images/kadın-akademisyen.jpg",
-        "description": "DKSADMASL",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "tags": [
-            "Art",
-            "Music",
-            "Smth"
+            "Entrepreneurship",
+            "Social responsibility"
         ]
     },
     {
-        "id": "1",
-        "name": "ACM",
+        "id": "9",
+        "name": "Chess Society",
         "src": "images/kadın-akademisyen.jpg",
-        "description": "DKSADMdsafasASL (this is supposed to be a description)",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "tags": [
-            "Art",
-            "Music",
-            "Smth"
+            "Chess",
+            "Sports"
         ]
     },
     {
-        "id": "2",
-        "name": "MEC",
+        "id": "10",
+        "name": "Bilkent IEEE Student Branch",
         "src": "images/kadın-akademisyen.jpg",
-        "description": "DKSADsdasadaMASL",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "tags": [
-            "Art",
-            "Music",
-            "Smth"
+            "Entrepreneurship",
+            "Engineering"
         ]
     },
     {
-        "id": "3",
-        "name": "TDP",
+        "id": "11",
+        "name": "Young Entrepreneurs Society",
         "src": "images/kadın-akademisyen.jpg",
-        "description": "DKSADdadadsasaMASL",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "tags": [
-            "Art",
-            "Music",
-            "Smth"
+            "Entrepreneurship",
+            "Business"
         ]
     },
     ]

@@ -22,7 +22,7 @@ function NavbarClub() {
         <>
             <nav className="navbar">
                 <div className="navbar-container-c">
-                    <Link to="/homepage-club" className="navbar-logo-c">
+                    <Link to="/" className="navbar-logo-c">
                         Circle
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
