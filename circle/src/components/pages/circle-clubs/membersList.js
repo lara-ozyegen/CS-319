@@ -21,60 +21,12 @@ const items = [
         "name": "Sarper",
         "surname": "Turan",
         "email": "sarper.turan@ug.bilkent.edu.tr",
-        "position": "member"
+        "position": "active member"
     },
     {
         "name": "Lara",
         "surname": "Ozyegen",
         "email": "lara.ozyegen@ug.bilkent.edu.tr",
-        "position": "board member"
-    },
-    {
-        "name": "lorem",
-        "surname": "ipsum",
-        "email": "lorem.ipsum@ug.bilkent.edu.tr",
-        "position": "board member"
-    },
-    {
-        "name": "lorem",
-        "surname": "ipsum",
-        "email": "lorem.ipsum@ug.bilkent.edu.tr",
-        "position": "board member"
-    },
-    {
-        "name": "lorema",
-        "surname": "ipsum",
-        "email": "lorem.ipsum@ug.bilkent.edu.tr",
-        "position": "active member"
-    },
-    {
-        "name": "lorem",
-        "surname": "ipsum",
-        "email": "lorem.ipsum@ug.bilkent.edu.tr",
-        "position": "member"
-    },
-    {
-        "name": "lorem",
-        "surname": "ipsusm",
-        "email": "lorem.ipsum@ug.bilkent.edu.tr",
-        "position": "active member"
-    },
-    {
-        "name": "lorem",
-        "surname": "ipsudm",
-        "email": "lorem.ipsum@ug.bilkent.edu.tr",
-        "position": "member"
-    },
-    {
-        "name": "lorem",
-        "surname": "ipsum",
-        "email": "lorem.ipsum@ug.bilkent.edu.tr",
-        "position": "active member"
-    },
-    {
-        "name": "lorem",
-        "surname": "ipsum",
-        "email": "loremd.ipsum@ug.bilkent.edu.tr",
         "position": "board member"
     },
     ]
