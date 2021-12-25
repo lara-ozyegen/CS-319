@@ -8,7 +8,7 @@ function ClubsCards() {
     return (
         <div className='cards'>
             {clubsList.map((value) => (
-                <ClubCardItem src={value.src} label="YES" path="/events"
+                <ClubCardItem src={value.src} label="YES" path="/clubs"
                     name = {value.name} tags = {value.tags} description = {value.description}/>                       
                     ))}
         </div>

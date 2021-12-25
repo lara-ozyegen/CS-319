@@ -24,6 +24,7 @@ import ContactClubs from './components/pages/circle-clubs/ContactClubs';
 import NotificationsClub from './components/pages/circle-clubs/NotificationsClub';
 
 import { Outlet } from 'react-router-dom';
+import Members from './components/pages/circle-clubs/Members';
 
 Amplify.configure(awsconfig);
 
@@ -59,8 +60,9 @@ function App() {
         <Route path="*" element={<NavbarClubLayout />}>
           <Route path="homepage-club" element={<HomepageClubs />} />
           <Route path="events-club" element={<EventManagement />} />
-          <Route path="contact-clubs" element={<ContactClubs />} />
+          <Route path="contact-club" element={<ContactClubs />} />
           <Route path="notifications-club" element={<NotificationsClub />} />
+          <Route path="members-club" element={<Members/>}/>
           <Route path="profile-club" element={<ClubProfile />} />
         </Route>
       </Routes>
