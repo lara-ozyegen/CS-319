@@ -9,11 +9,11 @@ AWS.config.update({
 let s3 = new AWS.S3();
 
 //Asynchronous function waits fata from AWS before calling other statements
-async function getObject () {
+async function getObject (bucket, key) {
     try {
       const params = {
-        Bucket: 'cs319-event',
-        Key: 'IEEE_1.json' 
+        Bucket: bucket,
+        Key: key 
       }
   
       const data = await s3.getObject(params).promise();
@@ -25,5 +25,5 @@ async function getObject () {
     }
 }
 
-const event = await getObject();
-console.log(event);
+const events = await getObject('cs319-event','events.json');
+console.log(events);
