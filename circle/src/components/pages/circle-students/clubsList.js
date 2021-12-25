@@ -1,51 +1,43 @@
 const items = [
     {
         "id": "0",
-        "name": "ACM Bilkent Club",
-        "src": "images/kadın-akademisyen.jpg",
+        "name": "Bilkent ACM",
+        "src": "images/acm.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "tags": [
-            "Engineering",
-            "Business",
-            "Entrepreneurship"
+            "Engineering"
         ]
     },
     {
         "id": "1",
-        "name": "Tea Club",
-        "src": "images/kadın-akademisyen.jpg",
+        "name": "Bilkent Tea Club",
+        "src": "images/btc.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",        "tags": [
             "Food"
         ]
     },
     {
         "id": "2",
-        "name": "Literature Society",
-        "src": "images/kadın-akademisyen.jpg",
+        "name": "IEEE Bilkent",
+        "src": "images/ieee.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "tags": [
-            "Literature",
-            "History",
-            "Philosophy",
-            "Self improvement"
+            "Engineering"
         ]
     },
     {
         "id": "3",
-        "name": "Philosophy Society",
-        "src": "images/kadın-akademisyen.jpg",        
+        "name": "Atatürkçü Düşünce Topluluğu",
+        "src": "images/adt.jpg",        
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "tags": [
-            "Philosophy",
-            "History",
-            "Politics",
-            "Self improvement"
+            "Politics"
         ]
     },
     {
         "id": "4",
-        "name": "Short Film Society",
-        "src": "images/kadın-akademisyen.jpg",
+        "name": "Bilkent Cinema Society",
+        "src": "images/bcs.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "tags": [
             "Art",
@@ -54,17 +46,18 @@ const items = [
     },
     {
         "id": "5",
-        "name": "Winter Sports Society",
-        "src": "images/kadın-akademisyen.jpg",
+        "name": "Operational Research",
+        "src": "images/or.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "tags": [
-            "Sports"
+            "Business",
+            "Entrepreneurship"
         ]
     },
     {
         "id": "6",
-        "name": "Fashion Society",
-        "src": "images/kadın-akademisyen.jpg",
+        "name": "Young Entrepreneurs Society",
+        "src": "images/yes.jpeg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "tags": [
             "Fashion",
@@ -73,52 +66,11 @@ const items = [
     },
     {
         "id": "7",
-        "name": "Music Club",
-        "src": "images/kadın-akademisyen.jpg",
+        "name": "Toplumsal Duyarlılık Projesi",
+        "src": "images/tdp.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "tags": [
-            "Art",
-            "Music"
-        ]
-    },
-    {
-        "id": "8",
-        "name": "Women's Studies Society",
-        "src": "images/kadın-akademisyen.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "tags": [
-            "Entrepreneurship",
-            "Social responsibility"
-        ]
-    },
-    {
-        "id": "9",
-        "name": "Chess Society",
-        "src": "images/kadın-akademisyen.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "tags": [
-            "Chess",
-            "Sports"
-        ]
-    },
-    {
-        "id": "10",
-        "name": "Bilkent IEEE Student Branch",
-        "src": "images/kadın-akademisyen.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "tags": [
-            "Entrepreneurship",
-            "Engineering"
-        ]
-    },
-    {
-        "id": "11",
-        "name": "Young Entrepreneurs Society",
-        "src": "images/kadın-akademisyen.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "tags": [
-            "Entrepreneurship",
-            "Business"
+            "Social Responsibility"
         ]
     },
     ]
