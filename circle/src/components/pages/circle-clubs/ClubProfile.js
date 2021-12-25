@@ -21,7 +21,7 @@ export default function ClubProfile() {
     <h2 className='MyClubs'>Contact</h2>
     <hr />
 
-    <h2 className='EventsOfMyClubs'>Events of My Clubs</h2>
+    <h2 className='EventsOfMyClubs'>Events of the Club</h2>
     <hr />
     </>
     );

@@ -14,7 +14,7 @@ function HomepageClubs() {
         <h1>Welcome to Circle for Clubs</h1>
     </div>
     
-    <h2 className='next'>Next Events of the Club</h2>
+    <h2 className='next'>Upcoming Events of the Club</h2>
     <hr />
     <EventsCards/>
 

@@ -11,7 +11,7 @@ function members(){
                 </li>
             </div>
     
-            <h2 className='membersOfYES'>Members of YES</h2>
+            <h2 className='membersOfYES'>Members of the Club</h2>
             <hr />
         </>
         );
