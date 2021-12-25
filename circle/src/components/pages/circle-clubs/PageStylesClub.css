@@ -108,6 +108,6 @@ input::placeholder {
 
 .membersContainer {
     width: 60%;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin: auto;
+    margin-top: 30px;
 }
