@@ -28,7 +28,11 @@ const CardItem = (props) => { //takes the properties as a parameter and sets the
                 <h5 className='eventLocation'>Location: {props.location}</h5>
                 <h5 className='eventDate'>Date: {props.date}</h5>
                 <p className='description'>{props.description}</p>
-                <p class='tags'>Tags: {props.tags}</p>
+                <ul>Tags: 
+                    {props.tags.map(option => 
+                    <li>{option} </li>
+                    )}
+                </ul>
 			</div>
             </div>
         </>
